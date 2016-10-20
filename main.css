@@ -1,0 +1,50 @@
+body{
+  height: 1000px;
+  width: 100%;
+  background-image: url(http://cdn.wallpapersafari.com/31/6/6nc4yI.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar{
+background: rgba(255, 255, 255, 0.6);
+width: 100%;
+position: fixed;
+}
+
+.top-isael-bar{
+  float: right;
+}
+.top-isael-bar{
+
+}
+.big-box{
+
+}
+#main-picture{
+  background: rgba(255, 255, 255, 0.01);;
+}
+#picture-size{
+  position: sticky;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+  color: white;
+}
+.jumbotron{
+  background: rgba(255, 255, 255, 0.01);
+}
+.jumbotron h1{
+  color: #fff;
+}
+.border-projects{
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+.border-projects img{
+  margin-top: 15px;
+}
+.border-projects h3{
+  color: #fff;
+}
