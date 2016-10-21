@@ -1,16 +1,50 @@
+
 body{
   height: 1000px;
   width: 100%;
   background-image: url(http://cdn.wallpapersafari.com/31/6/6nc4yI.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  color: #fff;
 }
 .navbar{
 background: rgba(255, 255, 255, 0.6);
 width: 100%;
-position: fixed;
 }
-
+.me-icon{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  float: right;
+  box-shadow: 10px 10px 70px #000;
+}
+.links{
+  margin-left: 90%;
+}
+.button-links{
+  color:#fff;
+  padding: 5px;
+}
+.button-links a{
+  color: #f2f2f2;
+  margin: 0 10px;
+  box-shadow: 5px 5px 40px #000;
+}
+#main-header{
+  margin-top: 40px;
+  float: left;
+  text-shadow: 10px 5px 40px #000;
+}
+#margin-about-me{
+  position: relative;
+  margin-top: -70px;
+  margin-bottom: 40px;
+  clear: both;
+  text-shadow: 10px 5px 40px #000;
+}
+.social-icon{
+  padding: 5px 36px;
+}
 .top-isael-bar{
   float: right;
 }
