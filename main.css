@@ -99,9 +99,6 @@ ul{
 .top-isael-bar li:hover{
   background: #fff;
 }
-.big-box{
-
-}
 #main-picture{
   background: rgba(255, 255, 255, 0.01);;
 }
@@ -117,6 +114,7 @@ ul{
 .jumbotron h1{
   color: #fff;
 }
+/* gallery settings css for the image background under the image, the button and color of the button, and borders */
 .border-projects{
   border: 1px solid #fff;
   background: rgba(255, 255, 255, 0.8);
@@ -146,11 +144,64 @@ ul{
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.project-img-color{
+.project-text-color:hover{
+  background: rgba(84, 140, 84, 1);
 }
+
 .gallery{
   background: rgba(0, 0, 0, 0.01);;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
+}
+/* this is the contact me settings */
+.contact-me-h1{
+  border-bottom: 2px solid #fff;
+}
+.inputs-form-contact{
+  margin-bottom: 15px;
+}
+.inputs-form-contact input{
+  font-size: 42px;
+  height: 50px;
+  background: rgba(255, 0, 0, 0.01);
+  width: 100%;
+  color: #fff;
+  outline: none;
+  border-top: #fff;
+  border-left: #fff;
+  border-right: #fff;
+}
+.inputs-form-contact input:focus{
+  outline: none;
+}
+.inputs-form-contact textarea{
+  width: 100%;
+  background: rgba(255, 0, 0, 0.01);
+  color: #fff;
+  font-size: 22px;
+  outline: none;
+  border: 2px solid #fff;
+}
+.inputs-form-contact textarea:focus{
+  outline: none;
+}
+.send-button{
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+.send-button a{
+  color: #fff;
+  background: rgba(140, 233, 140, 1);
+  padding: 15px 40px;
+}
+.right-side-contact{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  width: 60%;
+  margin-bottom: 100px;
+}
+::-webkit-input-placeholder{
+  color: #fff;
 }
 /* footer css settings*/
 .footer{
@@ -177,6 +228,12 @@ ul{
 }
 .footer-right{
   text-align: center;
+}
+.footer-headers{
+  border-bottom: 1px solid #fff;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-link{
   height: 50px;
