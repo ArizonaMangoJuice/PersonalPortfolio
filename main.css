@@ -1,4 +1,4 @@
-
+/*
 div{
   border: 1px solid #000;
 }
@@ -53,7 +53,6 @@ ul{
   height: 150px;
   width: 150px;
   float: right;
-  box-shadow: 10px 10px 70px #000;
 }
 .links{
   margin-left: 90%;
@@ -66,7 +65,6 @@ ul{
 #main-header{
   margin-top: 40px;
   float: left;
-  text-shadow: 10px 5px 40px #000;
 }
 #margin-about-me{
   position: relative;
@@ -74,11 +72,12 @@ ul{
   margin-top: -70px;
   margin-bottom: 40px;
   clear: both;
-  text-shadow: 10px 5px 40px #000;
   width: 102.6%;
   margin-left: -15px;
   border-top: 1px solid rgba(119, 119, 119, 0.5);
   border-bottom: 1px solid rgba(119, 119, 119, 0.5);
+  color: #fff;
+  text-align: center;
 }
 .info-about-me{
   margin-top: 80px;
@@ -112,27 +111,45 @@ ul{
   margin-left: auto;
   margin-right: auto;
 }
-p{
-  color: white;
-}
 .jumbotron{
-  background: rgba(255, 255, 255, 0.01);
+  background: rgba(140, 140, 140, 1);
 }
 .jumbotron h1{
   color: #fff;
 }
 .border-projects{
   border: 1px solid #fff;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.8);
+}
+.border-projects:hover{
+  background: #f2f2f2;
 }
 .border-projects img{
   margin-top: 15px;
 }
-.border-projects h3{
-  color: #fff;
+.border-projects a{
+
+}
+.border-projects a:hover{
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.project-text-color{
+  display: inline-block;
+  background: rgba(140, 233, 140, 1);
+  border: 1px solid rgba(119, 119, 119, 0.5);
+  text-align: center;
+  padding: 15px;
+  margin-top: 5px;
+  width: 100%;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.project-img-color{
 }
 .gallery{
-  background: #f2f2f2;
+  background: rgba(0, 0, 0, 0.01);;
   padding-bottom: 100px;
 }
 /* footer css settings*/
@@ -153,6 +170,7 @@ p{
   display: inline-block;
   margin-top: 1.5%;
   font-size: 32px;
+  color: #333;
 }
 .footer-left{
   text-align: center;
@@ -186,11 +204,12 @@ p{
 /* this is for the footer buttons and the css for top part buttons and footer */
 .green-link a{
   display: inline-block;
-  border: 1px solid rgba(0, 0, 0, 1);
+  border: 1px solid rgba(119, 119, 119, .5);
   background: rgba(140, 233, 140, 1);
   border-radius: 50%;
   text-decoration: none;
   color: #fff;
+  margin-left: 15px;
 }
 .green-link a i{
   padding: 12px 14px;
