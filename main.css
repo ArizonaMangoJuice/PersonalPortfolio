@@ -1,4 +1,6 @@
-
+div{
+  border: 1px solid #000;
+}
 body{
   height: 1000px;
   width: 100%;
@@ -122,4 +124,53 @@ p{
 .gallery{
   background: #f2f2f2;
   padding-bottom: 100px;
+}
+/* footer css settings*/
+.footer{
+  position: relative;
+  height: 300px;
+  bottom: 0;
+  background: rgba(255, 0, 0, 0.01);;
+  width: 100%;
+}
+#footer-2{
+  background: rgba(140, 233, 140, 1);
+  height: 80px;
+  width: 103%;
+  margin-left: -15px;
+}
+#footer-2 p{
+  display: inline-block;
+  margin-top: 1.5%;
+  font-size: 32px;
+}
+.footer-left{
+  text-align: center;
+}
+.footer-right{
+  text-align: center;
+}
+.footer-link{
+  height: 50px;
+}
+#spotify-easter-egg:hover{
+  color: rgba(140, 233, 140, 1);
+}
+.footer-link a{
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 1);
+  background: rgba(140, 233, 140, 1);
+  border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+}
+.footer-link a i{
+  border: 1px solid #000;
+  padding: 12px 14px;
+}
+.footer-link a:hover{
+  background: #f2f2f2;
+}
+.footer-link a i:hover{
+  color: #000;
 }
