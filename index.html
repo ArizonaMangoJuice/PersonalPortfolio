@@ -12,11 +12,9 @@
           <a class="navbar-brand logo-isael" href="/Users/kahlua/Desktop/PersonalPortfolio/index.html"><img class="img-responsive" src="http://41.media.tumblr.com/1626ac52fae0f2f1a7022ac1992aeca6/tumblr_mg9n21EJCg1rxs8dio1_1280.png" alt="" /></a>
         </div>
         <ul class="nav navbar-nav top-isael-bar">
-          <li><a href="#">Home</a></li>
           <li><a href="#">About Me</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">portfolio3</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -25,26 +23,29 @@
       <div class="jumbotron">
         <div class="row">
           <div class="container-fluid col-md-4">
-            <a class="links" href="https://www.linkedin.com/in/isael-lizama-9a128b130"><img class="me-icon img-responsive" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/3/005/0b4/322/0a5add4.jpg" alt="" /></a>
+            <a class="links" href="https://www.linkedin.com/in/isael-lizama-9a128b130"><img class="me-icon img-responsive" src="http://qlip.in/images/avatar.jpg" alt="" /></a>
           </div>
           <div class="container-fluid col-md-8">
             <h1 id="main-header" class="text-center">Isael's Portfolio</h1>
           </div>
-          <div class="container button-links">
-            <a class="btn btn-outline-primary social-icon" href="https://github.com/ArizonaMangoJuice" role="button"><i style="font-size:24px" class="fa">&#xf09b;</i></a>
-            <a class="btn btn-primary social-icon" href="https://www.linkedin.com/in/isael-lizama-9a128b130?trk=nav_responsive_tab_profile_pic"><i style="font-size:24px" class="fa">&#xf0e1;</i></a>
-            <a class="btn btn-primary social-icon" href="https://codepen.io/ArizonaMangoJuice/"><i class="fa" style="font-size:24px">&#xf1cb;</i></a>
-            <a class="btn btn-primary social-icon" href="https://twitter.com/ArizonaMangoJug"><i class="fa" style="font-size:24px">&#xf099;</i></a>
+          <div class="green-link top-green">
+            <a href="https://www.linkedin.com/in/isael-lizama-9a128b130"><i style="font-size:22px" class="fa fa-color">&#xf0e1;</i></a>
+            <a href="https://github.com/ArizonaMangoJuice"><i style="font-size:22px" class="fa fa-color">&#xf092;</i></a>
+            <a href="https://twitter.com/ArizonaMangoJug"><i style="font-size:22px" class="fa fa-color">&#xf099;</i></a>
+            <a href="https://codepen.io/ArizonaMangoJuice/"><i style="font-size:22px" class="fa fa-color">&#xf1cb;</i></a>
           </div>
         </div>
       </div>
     </div>
     <div id="margin-about-me" class="container-fluid text-center">
-      <h2 class="col-md-8">
-        Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.
-      </h2>
+      <div class="col-md-8 info-about-me">
+        <h2>
+          Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.
+        </h2>
+      </div>
+      <img id="picture-about-me" class="col-md-4 img-responsive text-center" src="http://qlip.in/images/avatar.jpg" alt="" />
     </div>
-    <div class="container-fluid see-through gallery">
+    <div id="gallery" class="container-fluid see-through gallery">
       <div class="row">
         <div class="cont col-md-4">
           <div class="container-fluid border-projects">
@@ -92,18 +93,21 @@
       <footer class="container-fluid">
         <div class="container-fluid row">
           <div class="col-md-6 footer-left">
-            <h3>About this page</h3>
-            <h4>Made with <i id="spotify-easter-egg" style="font-size:24px" class="fa">&#xf1bc;</i></h4>
+            <div class="">
+              <h3>About this page</h3>
+            </div>
+            <div class="made-with-text">
+              <h4>Made with <i id="spotify-easter-egg" style="font-size:32px" class="fa">&#xf1bc;</i></h4>
+            </div>
           </div>
           <div class="col-md-6 footer-right">
             <h3>Me on the web</h3>
-            <div class="footer-link">
-              <a href="#"><i style="font-size:22px" class="fa fa-color">&#xf0e1;</i></a>
-              <a href="#"><i style="font-size:22px" class="fa fa-color">&#xf092;</i></a>
+            <div id="contact" class="green-link green-link-margin">
+              <a href="https://www.linkedin.com/in/isael-lizama-9a128b130"><i style="font-size:22px" class="fa fa-color">&#xf0e1;</i></a>
+              <a href="https://github.com/ArizonaMangoJuice"><i style="font-size:22px" class="fa fa-color">&#xf092;</i></a>
               <a href="https://twitter.com/ArizonaMangoJug"><i style="font-size:22px" class="fa fa-color">&#xf099;</i></a>
-              <a href="#"><i style="font-size:22px" class="fa fa-color">&#xf1cb;</i></a>
+              <a href="https://codepen.io/ArizonaMangoJuice/"><i style="font-size:22px" class="fa fa-color">&#xf1cb;</i></a>
             </div>
-
           </div>
         </div>
         <div id="footer-2" class="container-fluid text-center">
